@@ -4,3 +4,143 @@
   box-sizing: border-box;
 }
 
+/* Generics */
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2.6rem;
+}
+
+h3{
+  font-size: 2.1rem;
+}
+
+h4{
+  font-size: 1.7rem;
+}
+
+/* Utilities */
+.debug {
+  background-color: rgba(222, 15, 15, 0.3);
+  border: 1px solid black;
+  height: 100%;
+}
+
+.test{
+  background-color: rgba(255, 251, 0, 0.493);
+}
+
+.test2{
+  background-color: rgba(106, 255, 0, 0.516);
+}
+
+.test3{
+  background-color: rgba(0, 102, 255, 0.315);
+}
+
+.w-100{
+  width: 100%;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.desktop {
+  display: none;
+}
+
+.container{
+  max-width: 1380px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col{
+  min-height: 300px; /*debug da togliere*/
+  width: 100%;
+
+}
+
+
+/*HEADER*/
+
+header {
+  height: 60px;
+  background-color: #0084fd;
+}
+
+header .container {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+header .logo img{
+  width: 90%;
+}
+
+header .buttons i{
+  color: white;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  display: inline-block;
+}
+
+header nav ul li a{
+  display: inline-block;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+header nav ul li:last-child a{
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+
+/*MAIN*/
+
+
+
+/*RESPONSIVE*/
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:1280px) {
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  header .container {
+    max-width: 60%;
+  }
+
+}
