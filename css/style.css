@@ -26,11 +26,6 @@ h4{
 }
 
 /* Utilities */
-.debug {
-  background-color: rgba(222, 15, 15, 0.3);
-  border: 1px solid black;
-  height: 100%;
-}
 
 .test{
   background-color: rgba(255, 251, 0, 0.493);
@@ -134,7 +129,7 @@ main{
   margin-top: 30px;
 }
 
-.col{
+.sec1 .row .col{
   width: 100%;
   height: 250px;
   border-radius: 25px;
@@ -200,6 +195,9 @@ section .text p{
   background-color: #9792e4;
 }
 
+/* section 3 */
+
+
 
 
 
@@ -214,6 +212,8 @@ section .text p{
   section .row .col{
     width: calc(100% / 3 - 10px);
   }
+
+  /* section 3 */
 
 
 
